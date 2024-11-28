@@ -82,3 +82,38 @@ npm run preview
 - Vite
 - TailwindCSS
 - react-selection
+
+## Warning
+
+#### In case you want to limit the SelectionZone and let it overflow in a window, give it a wrapper!
+
+```tsx
+//❌ directly let SelectionZone overflow auto
+<SelectionZone
+  className="overflow-auto ..."
+  /*or*/
+  style={{
+    overflow: "auto"
+  }}
+  ...
+>
+  {/* ... */}
+</SelectionZone>
+```
+
+```tsx
+//✅ wrap SelectionZone with an overflow-auto-wrapper
+<div
+  className="overflow-auto ..."
+  /*or*/
+  style={{
+    overflow: "auto"
+  }}
+>
+  <SelectionZone
+    ...
+  >
+    {/* ... */}
+  </SelectionZone>
+</div>
+```
