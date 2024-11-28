@@ -10,6 +10,10 @@ Demo repository showcasing the [@huyngth/react-selection](https://www.npmjs.com/
 - TypeScript integration
 - Performance optimization patterns
 
+## Brief look
+
+![React Selection Live Demo](https://github.com/user-attachments/assets/b3efba88-cf34-40fd-9bfa-5c9094e0c1e2)
+
 ## Quick Start
 
 ```bash
